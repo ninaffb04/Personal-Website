@@ -1,0 +1,58 @@
+.navbar {
+    display: flex; /* Use Flexbox for proper alignment */
+    justify-content: space-between; /* Pushes content apart */
+    align-items: center; /* Centers items vertically */
+    background-color: lightblue;
+    padding: 10px 20px; /* Adds some spacing */
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+}
+    
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+    
+.navbar-image {
+    margin-left: auto; /* Pushes icon to the right */
+    height: 30px;
+}
+
+body {
+    font-family: Cambria, sans-serif;
+}
+.container {
+    margin-left: 50px;
+    margin-right: 100px;
+    display: flex;
+
+}
+.image {
+    flex: 1;
+}
+.Description {
+    width: 65%; 
+    background-color:#f4f4f4;
+    text-align: left;
+    padding: 14px 16px;
+    flex: 1;
+    height: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+.Description p {
+    color: #555
+}
+
+.footer{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
